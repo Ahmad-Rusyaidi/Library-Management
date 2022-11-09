@@ -1,0 +1,47 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-background-color: #2A2E37;
+}
+
+.menu .label
+{
+    -fx-text-fill: white;
+}
+
+.tab{
+	-fx-pref-width: 200;
+	-fx-pref-height: 35;
+	-fx-text-fill: white;
+}
+
+.tab-header-background{
+	-fx-background-color: #2A2E37;
+}
+
+.context-menu{
+	-fx-background-color: derived(#2A2E37,20%);
+}
+
+.button{
+	-fx-background-color: derived(#2A2E37,20%);
+}
+
+.jfx-hamburger StackPane { 
+	-fx-background-color: #FFFF8D;
+	-fx-background-radius: 5px;
+}
+
+.chart-pie-label{
+	-fx-fill: #FFFF8D;
+}
+
+.data0.chart-pie{
+	-fx-pie-color: #FFFF8D;
+	-fx-border-color: derived(#FFFF8D,-30%);
+}
+
+.data1.chart-pie{
+	-fx-pie-color: blue;
+	-fx-border-color: derived(blue,-30%);
+}
